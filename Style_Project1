@@ -1,0 +1,7 @@
+* {
+	.body {
+  height50%;
+  width:50%;
+  margin:0px;
+}
+}
