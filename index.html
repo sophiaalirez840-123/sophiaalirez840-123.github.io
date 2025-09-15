@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Life of a Butterfly 🦋</title>
+  <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+#page1 .background-wrapper {
+  position: relative;
+  width: 62vw;
+  margin: 0 auto;
+}
+
+#page1 .background-img {
+  ;width: 100%;
+  display: block
+}
+
+#page1 .house-img {
+  position: absolute;
+  width: 90px; 
+  top: 360px;   
+  left: 56%;    
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+#page1 .butterfly-img {
+    position: absolute;
+  width: 55px;
+  top: 380px;       
+  left: 53%;        
+  transform: translateX(-50%);
+  z-index: 3;       
+
+}
+
+#page1 p {
+  position: absolute;
+  top: 30px;               
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Irish Grover', cursive;
+  font-size: 36px;
+  max-width: 500px;
+  text-align: center;
+  z-index: 3;              
+  margin: 0;               
+}
+
+#page2 .page2-wrapper {
+  position: relative;
+  width: 62vw;
+  margin: 0 auto;
+}
+
+#page2 .butterfly-img {
+  position: absolute;
+  width: 55px;
+  top: 730px;       
+  left: 66%;        
+  transform: translateX(-50%);
+  z-index: 3;       
+}
+
+#page2 .component-img {
+    position: relative;
+    width: 100%;
+    display: block
+    z-index: 1;
+}
+
+#page3 .page3-wrapper {
+  position: relative;
+  width: 62vw;
+  margin: 0 auto;
+}
+
+#page3 .component-img {
+     position: relative;
+    width: 100%;
+    display: block
+    z-index: 1;
+}
+
+#page3 .butterfly-img {
+  position: absolute;
+  width: 430px;
+  top: 500px;       
+  left: 50%;        
+  transform: translateX(-50%);
+  z-index: 4;       
+}
+
+#page3 .funfacts-img {
+  position: absolute;
+  width: 555px;
+  top: 20px;       
+  left: 50%;        
+  transform: translateX(-50%);
+  z-index: 3;       
+}
+
+#page3 p {
+  position: absolute;
+  top: 130px;               
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Irish Grover', cursive;
+  font-size: 32px;
+  max-width: 500px;
+  text-align: center;
+  z-index: 5;              
+  margin: 0;  
+}
+
+#page4 .page4-wrapper {
+  position: relative;
+  width: 62vw;
+  margin: 0 auto;
+}
+
+#page4 .butterfly-img {
+  position: absolute;
+  width: 55px;
+  top: 510px;       
+  left: 55%;        
+  transform: translateX(-50%);
+  z-index: 3;       
+}
+
+#page4 .component-img {
+    position: relative;
+    width: 100%;
+    display: block
+    z-index: 1;
+}      
+
+#page5 .page5-wrapper {
+  position: relative;
+  width: 62vw;
+  margin: 0 auto;
+}
+
+#page5 .component-img {
+     position: relative;
+    width: 100%;
+    display: block
+    z-index: 1;
+}
+
+#page5 .butterfly-img {
+  position: absolute;
+  width: 430px;
+  top: 500px;       
+  left: 50%;        
+  transform: translateX(-50%);
+  z-index: 4;       
+}
+
+#page5 .funfacts-img {
+  position: absolute;
+  width: 555px;
+  top: 20px;       
+  left: 50%;        
+  transform: translateX(-50%);
+  z-index: 3;       
+}
+
+#page5 p {
+  position: absolute;
+  top: 150px;               
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Irish Grover', cursive;
+  font-size: 32px;
+  max-width: 500px;
+  text-align: center;
+  z-index: 5;              
+  margin: 0;  
+}
+
+#page6 .page6-wrapper {
+  position: relative;
+  width: 62vw;
+  margin: 0 auto;
+}
+
+#page6 .butterfly-img {
+  position: absolute;
+  width: 55px;
+  top: 267px;       
+  left: 55%;        
+  transform: translateX(-50%);
+  z-index: 3;       
+}
+
+#page6 .component-img {
+    position: relative;
+    width: 100%;
+    display: block
+    z-index: 1;
+}   
+
+#page7 .page7-wrapper {
+  position: relative;
+  width: 62vw;
+  margin: 0 auto;
+}
+
+#page7 .component-img {
+     position: relative;
+    width: 100%;
+    display: block
+    z-index: 1;
+}
+
+#page7 .butterfly-img {
+  position: absolute;
+  width: 500px;
+  top: 500px;       
+  left: 50%;        
+  transform: translateX(-50%);
+  z-index: 4;       
+}
+
+#page7 .funfacts-img {
+  position: absolute;
+  width: 555px;
+  top: 20px;       
+  left: 50%;        
+  transform: translateX(-50%);
+  z-index: 3;       
+}
+
+#page7 p {
+  position: absolute;
+  top: 150px;               
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Irish Grover', cursive;
+  font-size: 32px;
+  max-width: 500px;
+  text-align: center;
+  z-index: 5;              
+  margin: 0;  
+}   
+
+#page8 .page8-wrapper {
+  position: relative;
+  width: 62vw;
+  margin: 0 auto;
+}
+
+#page8 .butterfly-img {
+  position: absolute;
+  width: 55px;
+  top: 450px;       
+  left: 37%;        
+  transform: translateX(-50%);
+  z-index: 3;       
+}
+
+#page8 .component-img {
+    position: relative;
+    width: 100%;
+    display: block
+    z-index: 1;
+}   
+
+#page9 .page9-wrapper {
+  position: relative;
+  width: 62vw;
+  margin: 0 auto;
+}
+
+#page9 .component-img {
+     position: relative;
+    width: 100%;
+    display: block
+    z-index: 1;
+}
+
+#page9 .butterfly-img {
+  position: absolute;
+  width: 430px;
+  top: 500px;       
+  left: 50%;        
+  transform: translateX(-50%);
+  z-index: 4;       
+}
+
+#page9 .funfacts-img {
+  position: absolute;
+  width: 555px;
+  top: 20px;       
+  left: 50%;        
+  transform: translateX(-50%);
+  z-index: 3;       
+}
+
+#page9 p {
+  position: absolute;
+  top: 170px;               
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Irish Grover', cursive;
+  font-size: 32px;
+  max-width: 500px;
+  text-align: center;
+  z-index: 5;              
+  margin: 0;  
+}   
+
+#page10 .page10-wrapper {
+  position: relative;
+  width: 62vw;
+  margin: 0 auto;
+}
+
+#page10 .butterfly-img {
+  position: absolute;
+  width: 55px;
+  top: 680px;       
+  left: 37%;        
+  transform: translateX(-50%);
+  z-index: 3;       
+}
+
+#page10 .component-img {
+    position: relative;
+    width: 100%;
+    display: block
+    z-index: 1;
+}   
+
+#page11 .page11-wrapper {
+  position: relative;
+  width: 62vw;
+  margin: 0 auto;
+}
+
+#page11 .component-img {
+     position: relative;
+    width: 100%;
+    display: block
+    z-index: 1;
+}
+
+#page11 .butterfly-img {
+  position: absolute;
+  width: 430px;
+  top: 500px;       
+  left: 50%;        
+  transform: translateX(-50%);
+  z-index: 4;       
+}
+
+#page11 .funfacts-img {
+  position: absolute;
+  width: 555px;
+  top: 20px;       
+  left: 50%;        
+  transform: translateX(-50%);
+  z-index: 3;       
+}
+
+#page11 p {
+  position: absolute;
+  top: 150px;               
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Irish Grover', cursive;
+  font-size: 32px;
+  max-width: 500px;
+  text-align: center;
+  z-index: 5;              
+  margin: 0;  
+}   
+
+#page12 .page12-wrapper {
+  position: relative;
+  width: 62vw;
+  margin: 0 auto;
+}
+
+#page12 .butterfly-img {
+  position: absolute;
+  width: 655px;
+  top: 280px;       
+  left: 50%;        
+  transform: translateX(-50%);
+  z-index: 3;       
+}
+
+#page12 .component-img {
+    position: relative;
+    width: 100%;
+    display: block
+    z-index: 1;
+  }
+
+#page12 p {
+  position: absolute;
+  top: 30px;               
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Irish Grover', cursive;
+  font-size: 36px;
+  max-width: 500px;
+  text-align: center;
+  z-index: 3;              
+  margin: 0;   
+  </style>
+</head>
+
+<body>
+<section id="page1">
+  <div class="background-wrapper">
+  <p>Hi! Follow me on my journey to explore the plants around 
+the art building! Click Me!</p>
+
+ <img src= "images/Background.png"
+       class="background-img">
+  <a href="#page2">
+  <img src="images/Butteryfly.png" 
+       class="butterfly-img">
+</a>
+
+ <img src="images/House.png"
+       class="house-img">
+    </div>
+</section>
+
+<section id="page2">
+<div class="page2-wrapper">
+  <a href="#page3">
+  <img src="images/Butteryfly.png" 
+       class="butterfly-img">
+      </a>
+  <img src= "images/Component.png"
+       class="component-img">
+      </div>
+</section>
+
+<section id="page3">
+<div class="page3-wrapper">
+  <p>Society garlic: The strong garlicky odor of the plant's leaves and rootstock also helps it resist deer and rabbits. Gardeners in the United States have also reported that gophers and groundhogs dislike the smell.</p>
+    <a href="#page4">
+  <img src="images/Butteryfly.png"
+       class="butterfly-img">
+      </a>
+   <img src= "images/Component.png"
+       class="component-img">
+   <img src= "images/Group 4.png"
+       class="funfacts-img">
+  </div>
+</section>
+
+<section id="page4">
+<div class="page4-wrapper">
+  <a href="#page5">
+  <img src="images/Butteryfly.png" 
+       class="butterfly-img">
+      </a>
+  <img src= "images/Component.png"
+       class="component-img">
+      </div>
+</section>
+
+<section id="page5">
+<div class="page5-wrapper">
+  <p>Pomegranate: Pomegranates are packed with antioxidants, vitamins (like A, C, K, and folate), and minerals, which can help reduce inflammation and support heart health.</p>
+    <a href="#page6">
+  <img src="images/Butteryfly.png" 
+       class="butterfly-img">
+      </a>
+   <img src= "images/Component.png"
+       class="component-img">
+   <img src= "images/Group 4.png"
+       class="funfacts-img">
+  </div>
+</section>
+
+<section id="page6">
+<div class="page6-wrapper">
+  <a href="#page7">
+  <img src="images/Butteryfly.png"
+       class="butterfly-img">
+      </a>
+  <img src= "images/Component.png"
+       class="component-img">
+      </div>
+</section>
+
+<section id="page7">
+<div class="page7-wrapper">
+  <p>Trailing lantana: Despite being prized in gardens for its trailing purple flowers, Lantana montevidensis can become an aggressive, invasive weed in some regions, including Australia. </p>
+    <a href="#page8">
+  <img src="images/Butteryfly.png"
+       class="butterfly-img">
+      </a>
+   <img src= "images/Component.png"
+       class="component-img">
+   <img src= "images/Group 4.png"
+       class="funfacts-img">
+  </div>
+</section>
+
+
+<section id="page8">
+<div class="page8-wrapper">
+  <a href="#page9">
+  <img src="images/Butteryfly.png"
+       class="butterfly-img">
+      </a>
+  <img src= "images/Component.png"
+       class="component-img">
+      </div>
+</section>
+
+<section id="page9">
+<div class="page9-wrapper">
+  <p>Lantana: Its flowers change color as they mature, signaling to pollinators like bees and butterflies which flowers are still fresh and ready for nectar. </p>
+    <a href="#page10">
+  <img src="images/Butteryfly.png" 
+       class="butterfly-img">
+      </a>
+   <img src= "images/Component.png"
+       class="component-img">
+   <img src= "images/Group 4.png"
+       class="funfacts-img">
+  </div>
+</section>
+
+<section id="page10">
+<div class="page10-wrapper">
+  <a href="#page11">
+  <img src="images/Butteryfly.png" 
+       class="butterfly-img">
+      </a>
+  <img src= "images/Component.png"
+       class="component-img">
+      </div>
+</section>
+
+<section id="page11">
+<div class="page11-wrapper">
+  <p>Moses in the cradle: In traditional medicine, extracts from the plant have been used to treat various ailments, including colds, coughs, and sore throats. </p>
+    <a href="#page12">
+  <img src="images/Butteryfly.png"
+       class="butterfly-img">
+      </a>
+   <img src= "images/Component.png"
+       class="component-img">
+   <img src= "images/Group 4.png"
+       class="funfacts-img">
+  </div>
+</section>
+
+<section id="page12">
+<div class="page12-wrapper">
+  <p>Thank you for joining me on my adventure! Now go out and have an adventure and visit the plants around the ART building!</p>
+  <a href="#page1">
+  <img src="images/Butteryfly.png"
+       class="butterfly-img">
+      </a>
+  <img src= "images/Component.png"
+       class="component-img">
+      </div>
+</section>
+
+</body>
+</html>
