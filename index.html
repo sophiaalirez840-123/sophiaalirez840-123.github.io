@@ -1,39 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Life of a Butterfly 🦋</title>
-  <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
-  <style>
-    html {
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Life of a Butterfly 🦋</title>
+<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+<style>
+html {
       scroll-behavior: smooth;
     }
 
+section {
+  width: 100vw;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+  overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 #page1 .background-wrapper {
   position: relative;
-  width: 106vw;
+  width: 95vw;
   margin: 0 auto;
 }
 
 #page1 .background-img {
   width: 100%;
-  display: block
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 #page1 .house-img {
   position: absolute;
-  width: 8vw; 
-  top: 65%;   
-  left: 56%;    
+  width: 20vw;  
+  bottom: 15%;  
+  left: 55%;    
   transform: translateX(-50%);
   z-index: 2;
 }
 
 #page1 .butterfly-img {
   position: absolute;
-  width: 6vw;   
-  top: 68%;       
-  left: 53%;        
+  width: 12vw;   
+  bottom: 12%;       
+  left: 50%;        
   transform: translateX(-50%);
   z-index: 3;       
 
@@ -41,14 +60,13 @@
 
 #page1 p {
   position: absolute;
-  top: 5%;               
+  top: 8%;               
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Irish Grover', cursive;
-  font-size: 3vw;
-  max-width: 90%;
+  font-size: 6vw;
   text-align: center;
-  z-index: 3;              
+  z-index: 4;              
   margin: 0;               
 }
 
